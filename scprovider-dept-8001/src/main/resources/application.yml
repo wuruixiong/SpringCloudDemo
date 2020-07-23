@@ -1,0 +1,36 @@
+server:
+  port: 8001
+
+#mybatis配置
+mybatis:
+  type-aliases-package: wrx.sc.scapi
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+
+#spring的配置
+spring:
+  application:
+    name: springcloud-provider-dept
+
+  datasource:
+    #type: org.apache.tomcat.jdbc.pool.DataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sc_demo?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: WRXdemysql
+
+
+#Eureka的配置，服务注册到哪里
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://eureka7001.com:7001/eureka/
+#  instance:
+#    instance-id: springcloud-provider-dept8001 # 修改eureka上的默认描述信息！
+#    prefer-ip-address: true  # true,可以显示服务的IP地址 ~
+#
+##info配置
+#info:
+#  app.name: kuangshen-springcloud
+#  company.name: blog.kuangstudy.com
