@@ -1,10 +1,10 @@
-package wrx.sc.scdemo;
+package wrx.sc.eureka7001;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ScdemoApplicationTests {
+class Eureka7001ApplicationTests {
 
     @Test
     void contextLoads() {
