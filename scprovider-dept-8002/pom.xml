@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>wrx.sc</groupId>
-    <artifactId>scprovider-dept-8001</artifactId>
+    <artifactId>scprovider-dept-8002</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>scprovider-dept-8001</name>
+    <name>scprovider-dept-8002</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

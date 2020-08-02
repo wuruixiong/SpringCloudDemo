@@ -5,6 +5,15 @@
     <packaging>pom</packaging>
     <modules>
         <module>scprovider-dept-hystrix8001</module>
+        <module>eureka7001</module>
+        <module>eureka7002</module>
+        <module>eureka7003</module>
+        <module>scapi</module>
+        <module>scprovider-dept-8001</module>
+        <module>scprovider-dept-8002</module>
+        <module>scprovider-dept-8003</module>
+        <module>scconsumer-dept-feign-80</module>
+        <module>scconsumer-dept-80</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
