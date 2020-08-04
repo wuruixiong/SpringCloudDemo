@@ -16,6 +16,7 @@
         <module>scconsumer-dept-80</module>
         <module>scconsumer-dept-hystrix-dashboard-80</module>
         <module>sczuul-9527</module>
+        <module>sc-config-server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
